@@ -1,3 +1,4 @@
 # Server
- OutputType:Exe<br />
  TargetFramework: netcoreapp2.2
+ ## Run
+ dotnet run
