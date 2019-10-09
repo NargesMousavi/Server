@@ -1,0 +1,14 @@
+I:\Test\server\bin\Debug\netcoreapp2.2\server.deps.json
+I:\Test\server\bin\Debug\netcoreapp2.2\server.runtimeconfig.json
+I:\Test\server\bin\Debug\netcoreapp2.2\server.runtimeconfig.dev.json
+I:\Test\server\bin\Debug\netcoreapp2.2\server.dll
+I:\Test\server\bin\Debug\netcoreapp2.2\server.pdb
+I:\Test\server\obj\Debug\netcoreapp2.2\server.csprojAssemblyReference.cache
+I:\Test\server\obj\Debug\netcoreapp2.2\server.csproj.CoreCompileInputs.cache
+I:\Test\server\obj\Debug\netcoreapp2.2\server.RazorAssemblyInfo.cache
+I:\Test\server\obj\Debug\netcoreapp2.2\server.RazorAssemblyInfo.cs
+I:\Test\server\obj\Debug\netcoreapp2.2\server.AssemblyInfoInputs.cache
+I:\Test\server\obj\Debug\netcoreapp2.2\server.AssemblyInfo.cs
+I:\Test\server\obj\Debug\netcoreapp2.2\server.RazorTargetAssemblyInfo.cache
+I:\Test\server\obj\Debug\netcoreapp2.2\server.dll
+I:\Test\server\obj\Debug\netcoreapp2.2\server.pdb
