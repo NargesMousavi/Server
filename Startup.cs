@@ -15,15 +15,10 @@ namespace server
 {
     public class Startup
     {
-        private readonly ILogger _logger;
-
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILogger<Startup> logger)
         {
             app.UseWebSockets();
@@ -86,8 +81,6 @@ namespace server
                         await webSocket.SendAsync(resBuffer, result.MessageType, result.EndOfMessage, CancellationToken.None);
                         break;
                 }
-                // if (webSocket.State == WebSocketState.Closed)
-                //     return;
                 buffer = new ArraySegment<byte>(new byte[1024]);
                 result = await webSocket.ReceiveAsync(buffer, CancellationToken.None);
             }
